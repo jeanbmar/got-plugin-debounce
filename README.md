@@ -3,6 +3,10 @@
 Ensure a time delay between HTTP requests.  
 Use when targeting endpoints with rate limits.
 
+## Install
+
+`npm install got-plugin-debounce`
+
 ## Usage
 
 ```js
