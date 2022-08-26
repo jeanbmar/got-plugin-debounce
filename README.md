@@ -14,7 +14,7 @@ import plugin from 'got-plugin-debounce';
 
 const client = got
   .extend(plugin) // load plugin
-  .extend({ debounce: [350, 450] }) // random value ms in interval between 2 requests
+  .extend({ debounce: [350, 450] }) // random value from 350ms to 450ms between 2 requests
   // .extend({ debounce: 350 }) // fixed 350 ms between 2 requests
   
   const startedAt = Date.now();
