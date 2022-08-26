@@ -5,7 +5,7 @@ Use when targeting endpoints with rate limits.
 
 ## Usage
 
-```
+```js
 import plugin from 'got-plugin-debounce';
 
 const client = got
