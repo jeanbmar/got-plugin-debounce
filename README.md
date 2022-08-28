@@ -10,6 +10,7 @@ Use when targeting endpoints with rate limits.
 ## Usage
 
 ```js
+import got from 'got';
 import plugin from 'got-plugin-debounce';
 
 const client = got
