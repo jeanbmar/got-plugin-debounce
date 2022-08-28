@@ -1,9 +1,12 @@
 {
   "name": "got-plugin-debounce",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Debounce got HTTP requests",
   "type": "module",
   "main": "lib/index.mjs",
+  "files": [
+    "lib/**/*"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jeanbmar/got-plugin-debounce.git"
